@@ -31,7 +31,7 @@ jobs:
           echo $env:GITHUB_SHA
           echo $env:GITHUB_REPOSITORY
           echo $env:GITHUB_WORKSPACE
-      - name: Python Shell
+      - name: Python Shelll
         shell: python
         run: |
           import platform 
